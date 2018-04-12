@@ -1,0 +1,39 @@
+<head>
+    <title>GET FUCKED SCHWUCHTEL</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+
+
+        img {
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            max-height: 50%;
+            max-width: 50%;
+            transition: max-width 200ms, max-height 200ms;
+
+        }
+
+        img:hover {
+            max-height: 70%;
+            max-width: 70%;
+        }
+    </style>
+</head>
+
+<body>
+    <audio id="player" src="sound.mp3" autoplay>
+        <h1>Browser zu alt :(</h1>
+    </audio>
+    <img src="image.png" alt="Klicken zum Abspielen" onclick="document.getElementById('player').load()">
+</body>
